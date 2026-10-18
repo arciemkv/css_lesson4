@@ -1,3 +1,8 @@
+h1, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #cccccc;
     font-family: Verdana, sans-serif;
@@ -5,12 +10,13 @@ body {
     margin: 20px 0;
 }
 
+/* П.13 методички: контейнер сжимаем до 704px */
 #container {
     width: 704px;
     background-color: #ffffff;
     margin: auto;
     text-align: justify;
-    overflow: hidden;
+    overflow: hidden; /* Обрезает всё, что шире 704px */
 }
 
 #header {
@@ -19,18 +25,18 @@ body {
 }
 
 #header h1 {
-    margin: 0;
+    font-size: 22px;
     padding: 10px 0 0 20px;
 }
 
+/* П.3 методички: ul остается 720px! Из-за этого пункты не переносятся на новую строку. */
 ul {
-    margin: 0;
-    padding: 0;
-    width: 704px;
+    width: 720px;
     list-style: none;
     text-transform: uppercase;
     float: left;
-    background-color: #5b84b8; 
+    background-image: url(../../../images/nb.gif);
+    background-repeat: repeat-x;
 }
 
 li {
@@ -38,6 +44,7 @@ li {
     float: left;
 }
 
+/* П.5 методички: возвращаем строгие отступы 10px */
 a {
     padding: 0 10px 0 10px;
     line-height: 25px;
@@ -58,15 +65,15 @@ a:hover {
     color: #333333;
 }
 
+/* П.10 и П.13 методички: ширина 704px */
 #content {
     width: 704px;
+    height: 550px; 
     float: left;
     background-color: #ffffff;
-    padding-bottom: 20px;
-    min-height: 420px; 
 }
 
 #content h3 {
-    margin: 0;
+    font-size: 14px;
     padding: 15px 20px 10px 20px;
 }
