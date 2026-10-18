@@ -6,7 +6,7 @@ body {
 }
 
 #container {
-    width: 720px;
+    width: 704px;
     background-color: #ffffff;
     margin: auto;
     text-align: justify;
@@ -26,11 +26,11 @@ body {
 ul {
     margin: 0;
     padding: 0;
-    width: 720px;
+    width: 704px;
     list-style: none;
     text-transform: uppercase;
     float: left;
-    background-color: #5b84b8;
+    background-color: #5b84b8; 
 }
 
 li {
@@ -59,10 +59,11 @@ a:hover {
 }
 
 #content {
-    width: 720px;
+    width: 704px;
     float: left;
     background-color: #ffffff;
-    min-height: 400px;
+    padding-bottom: 20px;
+    min-height: 420px; 
 }
 
 #content h3 {
