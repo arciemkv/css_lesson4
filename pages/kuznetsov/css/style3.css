@@ -23,11 +23,46 @@ body {
     padding: 10px 0 0 20px;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    width: 720px;
+    list-style: none;
+    text-transform: uppercase;
+    float: left;
+    background-color: #5b84b8;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+a {
+    padding: 0 10px 0 10px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    float: left;
+    display: block;
+    background-image: url(../../../images/nb.gif);
+    background-repeat: repeat-x;
+    background-color: transparent;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #333333;
+}
+
 #content {
     width: 720px;
     float: left;
     background-color: #ffffff;
-    min-height: 400px; /* Временная высота, чтобы блок не схлопнулся */
+    min-height: 400px;
 }
 
 #content h3 {
